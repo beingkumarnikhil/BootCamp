@@ -1,3 +1,41 @@
+
+h1{
+    background-color:black;
+    font-size: 40px;
+    color: white;
+}
+
+div{
+    background-color: #0096c7; 
+    position: sticky;
+    height: auto;
+    font-size: 2rem;
+    margin: 10px;
+    width: 500px;
+    border-radius: 10px;
+
+
+}
+
+div{
+    position:sticky;
+    top: 10px;
+}
+
+dd{
+    font-weight: bold;
+    color: #14213d;
+
+}
+dd::before{
+    content: "\260E";
+}
+section{
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #eaf4f4;
+}
+
 h1{
     background-color:black;
     font-size: 40px;
