@@ -1,0 +1,63 @@
+body{
+ background-image:url("todo.jpg");
+   background-repeat: no-repeat; 
+   background-size: 100vw 100vh;
+   background-color: #fff;
+   
+}
+
+#h1{
+ margin-top: 30px;
+ color: #4d194d;
+ text-align: center;  
+ font-family: 'Times New Roman', Times, serif;
+ text-transform: uppercase;
+ font-size:55px;
+ font-weight: bold;
+ 
+} 
+
+#text{
+    height: 200px;
+    width: 300px;
+    /* background-color:#adb5bd; */
+    margin: 30px auto;
+    margin-top: 10px;
+}
+
+input{
+    background-color:#fff;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    position: relative;
+    left: 10px;
+    top: 10px;
+} 
+.btn{
+    width: 80px;
+    height: 30px;
+}
+
+.bi{
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.bi:hover{
+    scale:0.5rem;
+    color: yellow;       
+}
+
+li{
+ color: black;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+ul{
+    background-color:#adb5bd;
+}
